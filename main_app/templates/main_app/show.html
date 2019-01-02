@@ -1,0 +1,10 @@
+<!-- main_app/templates/show.html -->
+{% extends 'main_app/base.html' %}
+
+{% block content %} 
+    <h2> Name: {{ cat.name }}</h1>
+    <p> Breed: {{ cat.breed }}</p>
+    <p> Description: {{ cat.description }}</p>
+    <p> Age: {{ cat.age }}</p>
+
+    {% endblock %}
